@@ -15,6 +15,7 @@ public class Originator implements Cloneable{
     private String state = "";
 
     /**
+     * 备份对象
      */
     private Originator backup;
 
