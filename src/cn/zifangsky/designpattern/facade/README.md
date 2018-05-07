@@ -3,9 +3,11 @@
 >Provide a unified interface to a set of interfaces in a subsystem.Facade defines a higher-level interface that makes the subsystem easier to use.（要求一个子系统的外部与其内部的通信必须通过一个统一的对象进行。门面模式提供一个高层次的接口，使得子系统更易于使用。）
 
 门面模式注重“统一的对象”，也就是**提供一个访问子系统的接口，除了这个接口不允许有任何访问子系统的行为发生**，其通用类图如下所示：
+
 ![门面模式的通用类图](https://gitee.com/uploads/images/2018/0507/150746_c0168124_737082.png "门面模式的通用类图")
 
 是的，类图就这么简单，但是它代表的意义可是异常复杂，Subsystem Classes是子系统所有类的简称，它可能代表一个类，也可能代表几十个对象的集合。甭管多少对象，我们把这些对象全部圈入子系统的范畴，其结构如图所示：
+
 ![门面模式的通用类图2](https://gitee.com/uploads/images/2018/0507/151000_3e3f1c30_737082.png "门面模式的通用类图2")
 
 ### 门面模式的角色
