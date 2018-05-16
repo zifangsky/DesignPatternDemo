@@ -4,7 +4,7 @@
 
 单例模式的通用类图如下所示：
 
-
+![单例模式通用类图](https://gitee.com/uploads/images/2018/0516/160217_dc8db562_737082.png "单例模式通用类图=")
 
 Singleton类称为单例类，通过使用private的构造函数确保了在一个应用中只产生一个实例，并且是自行实例化的（在Singleton中自己使用new Singleton()）。
 
