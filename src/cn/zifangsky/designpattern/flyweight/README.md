@@ -1,5 +1,5 @@
 ## 享元模式的定义
-享元模式（Flyweight Pattern）是池技术的重要实现方式，其定义如下：：
+享元模式（Flyweight Pattern）是池技术的重要实现方式，其定义如下：
 >Use sharing to support large numbers of fine-grained objects efficiently.（使用共享对象可有效地支持大量的细粒度的对象。）
 
 享元模式的定义为我们提出了两个要求：细粒度的对象和共享对象。我们知道分配太多的对象到应用程序中将有损程序的性能，同时还容易造成内存溢出，那怎么避免呢？就是享元模式提到的共享技术。
