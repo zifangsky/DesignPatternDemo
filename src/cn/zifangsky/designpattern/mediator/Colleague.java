@@ -7,7 +7,7 @@ package cn.zifangsky.designpattern.mediator;
  * @date 2018/5/28
  * @since 1.0.0
  */
-public class Colleague {
+public abstract class Colleague {
     protected Mediator mediator;
 
     public Colleague(Mediator mediator) {
