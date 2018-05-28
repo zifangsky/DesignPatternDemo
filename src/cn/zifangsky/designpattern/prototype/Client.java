@@ -3,7 +3,7 @@ package cn.zifangsky.designpattern.prototype;
 /**
  * 测试类
  *
- * @author pangfeichuan
+ * @author zifangsky
  * @date 2018/5/18
  * @since 1.0.0
  */
