@@ -4,12 +4,11 @@
 
 > Convert the interface of a class into another interface clients expect.Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.（将一个类的接口变换成客户端所期待的另一种接口，从而使原本因接口不匹配而无法在一起工作的两个类能够在一起工作。）
 
-适配器模式的通用类图如下所示：
-
-
-
 适配器模式在生活中还是很常见的，比如你笔记本上的电源适配器，可以使用在110～220V之间变化的电源，而笔记本还能正常工作，这也是适配器一个良好模式的体现，简单地说，适配器模式就是把一个接口或类转换成其他的接口或类，从另一方面来说，适配器模式也就是一个包装模式，为什么呢？它把Adaptee包装成一个Target接口的类，加了一层衣服，包装成另外一个靓妞了。
 
+适配器模式的通用类图如下所示：
+
+![适配器模式通用类图](https://gitee.com/uploads/images/2018/0531/164018_f99b8020_737082.png "适配器模式通用类图")
 
 在类图中，有三个角色需要说明：
 
