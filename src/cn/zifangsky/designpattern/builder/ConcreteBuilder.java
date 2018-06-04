@@ -7,6 +7,7 @@ package cn.zifangsky.designpattern.builder;
  * @date 2018/6/4
  * @since 1.0.0
  */
+public class ConcreteBuilder extends AbstractBuilder{
     private Product product = new Product();
 
     @Override
