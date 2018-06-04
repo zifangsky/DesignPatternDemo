@@ -4,7 +4,6 @@ package cn.zifangsky.designpattern.builder;
  * 导演类
  *
  * @author zifangsky
- * @author pangfeichuan
  * @date 2018/6/4
  * @since 1.0.0
  */
